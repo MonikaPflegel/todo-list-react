@@ -1,0 +1,60 @@
+.section {
+    border: 1px solid #ddd;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.section__header {
+    padding: 0px 15px 15px;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 0px;
+}
+
+.section__header--taskList {
+    border: none;
+}
+
+.section__headerContainer {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #ddd;
+}
+
+@media (max-width: 768px) {
+    .section__headerContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .section__buttonsContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+.section__button {
+    background: none;
+    color: teal;
+    border: none;
+    padding: 15px;
+    transition: color 1s;
+}
+
+@media (max-width: 768px) {
+    .section__button {
+        padding-top: 0px;
+    }
+}
+
+.section__button:hover {
+    color: hsl(180, 100%, 35%);
+    cursor: pointer;
+}
+
+.section__button:disabled {
+    color: #b7b7b7;
+}
