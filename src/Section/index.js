@@ -1,13 +1,14 @@
 import React from "react";
 import "./style.css";
 
-const Section = ({title }) => (
-<section className="section">
-            <div className="section__headerContainer">
-                <h2 className="section__header section__header--taskList">{title}</h2>
-                <section__buttonsContainer tasks={tasks}      hideDoneTasks={hideDoneTasks}/>
-            </div>
-            <Tasks   tasks={tasks} hideDoneTasks= {hideDoneTasks}/>
-        </section>
-        );
-export default Section
+const Section = ({ header, body, extraHeaderContent }) => (
+    <section className="section">
+        <header className="section__header">
+            <h2 className="section__headerName">{header}</h2>
+            {extraHeaderContent}
+        </header>
+        {body}
+    </section>
+);
+
+export default Section;
