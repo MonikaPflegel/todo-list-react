@@ -1,8 +1,25 @@
-# Task list 
+# Task List
+This project was bootstrapped with Create React App.
 
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+# DEMO
+
+https://monikapflegel.github.io/todo-list-react/
+
+# Description
+The task list allows you to add new tasks, mark them as done and / or remove them from the list in a really simple way.
+
+# Technologies and conventions used in the project:
+- HTML
+- CSS
+- JavaScript
+- BEM
+- ES6+ Features
+- Grid
+- Immutability
+- React
 
 ## Available Scripts
 
