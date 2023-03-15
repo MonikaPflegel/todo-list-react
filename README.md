@@ -1,7 +1,10 @@
 # Task List
 This project was bootstrapped with Create React App.
 
+
 ![gif](images/todolist.gif)
+
+
 
 
 
